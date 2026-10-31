@@ -1,0 +1,11 @@
+PySide6>=6.6
+vosk>=0.3.45
+sounddevice>=0.4.6
+SpeechRecognition>=3.10
+audioop-lts; python_version >= "3.13"
+edge-tts>=6.1
+psutil>=5.9
+Pillow>=10.0
+numpy>=1.26
+imageio-ffmpeg>=0.5
+anthropic>=0.60

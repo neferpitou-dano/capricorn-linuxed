@@ -1,0 +1,35 @@
+# Local settings and secrets
+config.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime state and personal data
+*.log
+reports/
+samples/
+models/
+*.tmp
+*.bak
+
+# Build output
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# Capri generated Linux artefacts / debugging
+capri-test.wav
+C:\ProgramData/
